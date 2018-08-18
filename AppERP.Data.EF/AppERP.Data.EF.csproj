@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppERP.Data\AppERP.Data.csproj" />
+    <ProjectReference Include="..\AppERP.Infrastructure\AppERP.Infrastructure.csproj" />
+    <ProjectReference Include="..\AppERP.Utilities\AppERP.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

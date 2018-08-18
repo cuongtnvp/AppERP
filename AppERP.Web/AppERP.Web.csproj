@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppERP.Application\AppERP.Application.csproj" />
+    <ProjectReference Include="..\AppERP.Data.EF\AppERP.Data.EF.csproj" />
+    <ProjectReference Include="..\AppERP.Data\AppERP.Data.csproj" />
+    <ProjectReference Include="..\AppERP.Infrastructure\AppERP.Infrastructure.csproj" />
+    <ProjectReference Include="..\AppERP.Utilities\AppERP.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
